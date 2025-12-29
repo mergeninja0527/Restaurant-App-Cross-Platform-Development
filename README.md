@@ -11,17 +11,6 @@ Restaurant App is containerized polyglot microservices application that contains
 
 To getting started, simply fork this repository. Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 
-## Motivation
-
-- Developing independently deployable and scalable micro-services based on best practies using containerization ☸ 🐳 
-- Developing cross-platform beautiful mobile apps using Xamarin.Forms
-- Developing Single Page applications using React and Angular including best practices
-- Configuring fully automated CI/CD pipelines using Github Actions to mono-repo and Azure Pipelines and AppCenter for mobile
-- Using modern technologies such as GraphQL, gRPC, Apache Kafka, Serverless, Istio
-- Writing clean, maintainable and fully testable code, Unit Testing, Integration Testing and Mocking practices
-- Using SOLID Design Principles
-- Using Design Patterns and Best practices in different programming languages
-
 ## Architecture overview
 
 The architecture proposes a micro-service oriented architecture implementation with multiple autonomous micro-services (each one owning its own data/db and programming language) and using REST/HTTP as the communication protocol between the client apps, and gRPC for the backend communication in order to support data update propagation across multiple services.
